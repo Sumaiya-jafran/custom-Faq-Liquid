@@ -1,3 +1,11 @@
+first create tamplete-faq.liquid  in template
+second create custome-FAQ.liquid  in section
+
+In template page tamplete-faq.liquid
+{%section "custom-FAQ"%} // link to section where we write code 
+In section page custom-FAQ.liquid
+
+--------------start-------
 <section class="section section--page page page--faq faq js-faq-page">
     <div class="container container--tiny">
         <div class="section__title section__title--center">
